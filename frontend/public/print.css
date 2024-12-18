@@ -1,0 +1,17 @@
+@media print {
+    body {
+      font-size: 12pt;
+      color: black;
+    }
+    
+    .header, .footer, button, input, form {
+      display: none; /* Скрываем навигацию, футер и кнопки */
+    }
+  
+    .gallery {
+      margin: 0;
+      padding: 0;
+      display: block;
+    }
+  }
+  
